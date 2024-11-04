@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: #0a0c1c;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  width: 1000px;
+}
+
+.container {
+  background-color: #1b1937;
+  display: flex;
+  border-radius: 10px;
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.desc {
+  width: 300px;
+}
+
+.statsgen {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-weight: 400;
+  opacity: 75%;
+  line-height: 25px;
+}
+
+.image {
+  display: flex;
+  background: center/cover
+    url("https://s3-alpha-sig.figma.com/img/fa69/495d/55a75cf7eb85a83d75c5d213ff6dd625?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=REg0WkN36AK4r6iBWynvXAwQHk46fKNb2Cv42L82C5s7IDSQuKfFRJfXyT~JGJUN7b6-cZFFMF-ssZvKXWL8ndgGn36GXWarION9Rbc~cz9X9a7B4xW-D0YBrhAg4RQj6~ZAoWXUo4~5ha7Fup6HzXfmL5bixIpCmW0Unc0wdz-X2yyfs-TcoXXVFOHY8AOzubzGoHvx-FfA6z3U7SHx8rVaVXi22V70OUowbu32KIKBhuXQ7AhjfT16RRS4iR~FRLkY6E372qGNPY2eQylHsKbTPPuwvVMJX7enBrdo~x7NRA9QGiuE-k68MwDiyyePuFXZZV9wlfek8Lf7JkEaxg__");
+  width: 500%;
+  background-color: #ab5cdb;
+  background-blend-mode: multiply;
+  border-radius: 0px 10px 10px 0px;
+}
+
+span {
+  color: #ab5cdb;
+}
